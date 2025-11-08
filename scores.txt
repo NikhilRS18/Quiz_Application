@@ -2,3 +2,4 @@
 2025-11-04 12:54:45 | Name: Nikhil | Score: 10.00 | Percentage: 100.00% | Out Of: 10
 2025-11-04 12:56:57 | Name: Abhi | Score: 6.25 | Percentage: 62.50% | Out Of: 10
 2025-11-08 07:40:00 | Name: Vikas | Score: 6.25 | Percentage: 62.50% | Out Of: 10
+2025-11-08 08:21:54 | Name: Prajwal G V | Score: 7.50 | Percentage: 75.00% | Out Of: 10

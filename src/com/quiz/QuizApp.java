@@ -30,7 +30,7 @@ class Question {
             System.out.print("Enter your choice (A/B/C/D): ");
             String input = scanner.nextLine().trim();
             if (input.isEmpty()) {
-                System.out.println("Please enter A, B, C or d.");
+                System.out.println("Please enter A, B, C or D.");
                 continue;
             }
             choice = Character.toUpperCase(input.charAt(0));
