@@ -30,7 +30,7 @@ class Question {
             System.out.print("Enter your choice (A/B/C/D): ");
             String input = scanner.nextLine().trim();
             if (input.isEmpty()) {
-                System.out.println("Please enter A, B, C or D.");
+                System.out.println("Please enter A, B, C or d.");
                 continue;
             }
             choice = Character.toUpperCase(input.charAt(0));
@@ -84,7 +84,7 @@ public class QuizApp {
         System.out.printf("Score           : %.2f\n", score);
         System.out.printf("Percentage      : %.2f%%\n", percentage);
 
-        // Optional file save
+        
         System.out.print("Do you want to save your score to a file? (Y/N): ");
         String saveChoice = scanner.nextLine().trim();
         if (!saveChoice.isEmpty() && Character.toUpperCase(saveChoice.charAt(0)) == 'Y') {
@@ -110,7 +110,7 @@ public class QuizApp {
         try (FileWriter fw = new FileWriter(filename, true);
              BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(line);
-            bw.flush(); // ensures it’s actually written
+            bw.flush(); 
             System.out.println("Score saved successfully to " + filename);
         } catch (IOException e) {
             System.out.println("Failed to save score: " + e.getMessage());
